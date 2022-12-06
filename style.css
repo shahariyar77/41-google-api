@@ -1,0 +1,23 @@
+#albums,#comments,#photos{
+    display: grid;
+   grid-template-columns:repeat(3, 1fr);
+   overflow: hidden;
+   list-style: none;
+}
+
+.comment-li,.album-li,.photo-li{
+    padding: 20px;
+    margin: 15px;
+    background:gainsboro;
+    border-radius: 5px;
+    border: 2px solid rgb(27, 26, 27);
+    font-size:18px;
+}
+.album-li{
+    border: 2 px solid gold;
+    background: greenyellow;
+}
+.photo-li{
+    border: 2 px solid rgb(166, 112, 216);
+    background: orchid;
+}
